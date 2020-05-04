@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  30 APR 2020 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.11)  4 MAY 2020 03:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -68,13 +68,71 @@ Grid set 16 x 16 = 211.29729pt x 149.30585pt
 \TP@tbargs=\toks15
 \TP@prevdepth=\dimen111
 TextBlockOrigin set to 0pt x 0pt
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fleqn.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen112
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen113
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fleqn.sty
 
 LaTeX Warning: inputting `fleqn.clo' instead of obsolete `fleqn.sty'.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fleqn.clo
 File: fleqn.clo 2016/12/29 v1.2a Standard LaTeX option (flush left equations)
-\mathindent=\dimen112
+\mathindent=\dimen121
 Applying: [2015/01/01] Make \[ robust on input line 50.
 LaTeX Info: Redefining \[ on input line 51.
 Already applied: [0000/00/00] Make \[ robust on input line 62.
@@ -105,18 +163,18 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count91
+\Gread@gobject=\count103
 ))
-\pfg@pcount=\count92
-\pfg@scount=\count93
+\pfg@pcount=\count104
+\pfg@scount=\count105
 \pfg@temp=\write4
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen113
-\WF@size=\dimen114
-\c@WF@wrappedlines=\count94
-\WF@box=\box28
-\WF@everypar=\toks16
+\wrapoverhang=\dimen122
+\WF@size=\dimen123
+\c@WF@wrappedlines=\count106
+\WF@box=\box30
+\WF@everypar=\toks21
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -124,14 +182,14 @@ Package: wrapfig 2003/01/31  v 3.6
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks17
-\pgfutil@tempdima=\dimen115
-\pgfutil@tempdimb=\dimen116
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen124
+\pgfutil@tempdimb=\dimen125
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box29
+\pgfutil@abb=\box31
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
@@ -139,37 +197,37 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
  (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen117
-\Gin@req@width=\dimen118
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks18
-\pgfkeys@temptoks=\toks19
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks20
+\pgfkeys@tmptoks=\toks25
 ))
-\pgf@x=\dimen119
-\pgf@y=\dimen120
-\pgf@xa=\dimen121
-\pgf@ya=\dimen122
-\pgf@xb=\dimen123
-\pgf@yb=\dimen124
-\pgf@xc=\dimen125
-\pgf@yc=\dimen126
+\pgf@x=\dimen128
+\pgf@y=\dimen129
+\pgf@xa=\dimen130
+\pgf@ya=\dimen131
+\pgf@xb=\dimen132
+\pgf@yb=\dimen133
+\pgf@xc=\dimen134
+\pgf@yc=\dimen135
 \w@pgf@writea=\write5
 \r@pgf@reada=\read1
-\c@pgf@counta=\count95
-\c@pgf@countb=\count96
-\c@pgf@countc=\count97
-\c@pgf@countd=\count98
-\t@pgf@toka=\toks21
-\t@pgf@tokb=\toks22
-\t@pgf@tokc=\toks23
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -187,8 +245,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count99
-\pgfsyssoftpath@bigbuffer@items=\count100
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -216,12 +274,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen127
-\pgfmath@count=\count101
-\pgfmath@box=\box30
-\pgfmath@toks=\toks24
-\pgfmath@stack@operand=\toks25
-\pgfmath@stack@operation=\toks26
+\pgfmath@dimen=\dimen136
+\pgfmath@count=\count113
+\pgfmath@box=\box32
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -242,57 +300,57 @@ code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count102
+\c@pgfmathroundto@lastzeros=\count114
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen128
-\pgf@picmaxx=\dimen129
-\pgf@picminy=\dimen130
-\pgf@picmaxy=\dimen131
-\pgf@pathminx=\dimen132
-\pgf@pathmaxx=\dimen133
-\pgf@pathminy=\dimen134
-\pgf@pathmaxy=\dimen135
-\pgf@xx=\dimen136
-\pgf@xy=\dimen137
-\pgf@yx=\dimen138
-\pgf@yy=\dimen139
-\pgf@zx=\dimen140
-\pgf@zy=\dimen141
+\pgf@picminx=\dimen137
+\pgf@picmaxx=\dimen138
+\pgf@picminy=\dimen139
+\pgf@picmaxy=\dimen140
+\pgf@pathminx=\dimen141
+\pgf@pathmaxx=\dimen142
+\pgf@pathminy=\dimen143
+\pgf@pathmaxy=\dimen144
+\pgf@xx=\dimen145
+\pgf@xy=\dimen146
+\pgf@yx=\dimen147
+\pgf@yy=\dimen148
+\pgf@zx=\dimen149
+\pgf@zy=\dimen150
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen142
-\pgf@path@lasty=\dimen143
+\pgf@path@lastx=\dimen151
+\pgf@path@lasty=\dimen152
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen144
-\pgf@shorten@start@additional=\dimen145
+\pgf@shorten@end@additional=\dimen153
+\pgf@shorten@start@additional=\dimen154
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box31
-\pgf@hbox=\box32
-\pgf@layerbox@main=\box33
-\pgf@picture@serial@count=\count103
+\pgfpic=\box33
+\pgf@hbox=\box34
+\pgf@layerbox@main=\box35
+\pgf@picture@serial@count=\count115
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen146
+\pgflinewidth=\dimen155
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen147
-\pgf@pt@y=\dimen148
-\pgf@pt@temp=\dimen149
+\pgf@pt@x=\dimen156
+\pgf@pt@y=\dimen157
+\pgf@pt@temp=\dimen158
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -309,13 +367,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen150
+\pgfarrowsep=\dimen159
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen151
-\pgf@sys@shading@range@num=\count104
+\pgf@max=\dimen160
+\pgf@sys@shading@range@num=\count116
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -324,7 +382,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box34
+\pgfexternal@startupbox=\box36
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -341,7 +399,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box35
+\pgfnodeparttextbox=\box37
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -350,8 +408,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen152
-\pgf@nodesepend=\dimen153
+\pgf@nodesepstart=\dimen161
+\pgf@nodesepend=\dimen162
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -366,10 +424,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen154
-\pgffor@skip=\dimen155
-\pgffor@stack=\toks27
-\pgffor@toks=\toks28
+\pgffor@iter=\dimen163
+\pgffor@skip=\dimen164
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -378,32 +436,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count105
-\pgfplotmarksize=\dimen156
+\pgf@plot@mark@count=\count117
+\pgfplotmarksize=\dimen165
 )
-\tikz@lastx=\dimen157
-\tikz@lasty=\dimen158
-\tikz@lastxsaved=\dimen159
-\tikz@lastysaved=\dimen160
-\tikzleveldistance=\dimen161
-\tikzsiblingdistance=\dimen162
-\tikz@figbox=\box36
-\tikz@figbox@bg=\box37
-\tikz@tempbox=\box38
-\tikz@tempbox@bg=\box39
-\tikztreelevel=\count106
-\tikznumberofchildren=\count107
-\tikznumberofcurrentchild=\count108
-\tikz@fig@count=\count109
+\tikz@lastx=\dimen166
+\tikz@lasty=\dimen167
+\tikz@lastxsaved=\dimen168
+\tikz@lastysaved=\dimen169
+\tikzleveldistance=\dimen170
+\tikzsiblingdistance=\dimen171
+\tikz@figbox=\box38
+\tikz@figbox@bg=\box39
+\tikz@tempbox=\box40
+\tikz@tempbox@bg=\box41
+\tikztreelevel=\count118
+\tikznumberofchildren=\count119
+\tikznumberofcurrentchild=\count120
+\tikz@fig@count=\count121
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count110
-\pgfmatrixcurrentcolumn=\count111
-\pgf@matrix@numberofcolumns=\count112
+\pgfmatrixcurrentrow=\count122
+\pgfmatrixcurrentcolumn=\count123
+\pgf@matrix@numberofcolumns=\count124
 )
-\tikz@expandcount=\count113
+\tikz@expandcount=\count125
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -422,50 +480,50 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count114
-\Gm@cntv=\count115
-\c@Gm@tempcnt=\count116
-\Gm@bindingoffset=\dimen163
-\Gm@wd@mp=\dimen164
-\Gm@odd@mp=\dimen165
-\Gm@even@mp=\dimen166
-\Gm@layoutwidth=\dimen167
-\Gm@layoutheight=\dimen168
-\Gm@layouthoffset=\dimen169
-\Gm@layoutvoffset=\dimen170
-\Gm@dimlist=\toks29
+\Gm@cnth=\count126
+\Gm@cntv=\count127
+\c@Gm@tempcnt=\count128
+\Gm@bindingoffset=\dimen172
+\Gm@wd@mp=\dimen173
+\Gm@odd@mp=\dimen174
+\Gm@even@mp=\dimen175
+\Gm@layoutwidth=\dimen176
+\Gm@layoutheight=\dimen177
+\Gm@layouthoffset=\dimen178
+\Gm@layoutvoffset=\dimen179
+\Gm@dimlist=\toks34
 )
 Grid set 23 x 12 = 109.506pt x 149.66148pt
 TextBlockOrigin set to 40mm x 40mm
 (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
  ABD: EveryShipout initializing macros
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen171
-\scratchbox=\box40
-\nofMPsegments=\count118
-\nofMParguments=\count119
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen172
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count129
+\scratchdimen=\dimen180
+\scratchbox=\box42
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen181
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -548,26 +606,36 @@ e
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <35.83> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 125.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 127.
 
 
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <24.88> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 149.
+Underfull \hbox (badness 10000) in paragraph at lines 157--160
+
+ []
 
 
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 163
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+<figures/nn.png, id=4, 904.37875pt x 512.91624pt>
+File: figures/nn.png Graphic file (type png)
+ <use figures/nn.png>
+Package pdftex.def Info: figures/nn.png used on input line 185.
+(pdftex.def)             Requested size: 665.79951pt x 377.60329pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--191
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 197
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 163.
+LaTeX Font Info:    No file OMScmss.fd. on input line 197.
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 163.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-
- []
+(Font)              for symbol `textbullet' on input line 197.
 
 Package epstopdf Info: Source file: <figures/pwl_error_fbest_realize.eps>
 (epstopdf)                    date: 2018-03-13 03:10:34
@@ -578,50 +646,49 @@ ted-to.pdf>
 (epstopdf)                    size: 9130 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/pwl_error_fbest_re
 alize-eps-converted-to.pdf figures/pwl_error_fbest_realize.eps>
-(epstopdf)             \includegraphics on input line 294.
+(epstopdf)             \includegraphics on input line 237.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/pwl_error_fbest_realize-eps-converted-to.pdf, id=4, 537.00626pt x 409.
+<figures/pwl_error_fbest_realize-eps-converted-to.pdf, id=6, 537.00626pt x 409.
 53pt>
 File: figures/pwl_error_fbest_realize-eps-converted-to.pdf Graphic file (type p
 df)
  <use figures/pwl_error_fbest_realize-eps-converted-to.pdf>
 Package pdftex.def Info: figures/pwl_error_fbest_realize-eps-converted-to.pdf u
-sed on input line 294.
+sed on input line 237.
 (pdftex.def)             Requested size: 689.88309pt x 526.12126pt.
  [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 Non-PDF special ignored!
 
 
 Non-PDF special ignored!
-Non-PDF special ignored! <./figures/pwl_error_fbest_realize-eps-converted-to.pd
-f>] (./template.aux)
+Non-PDF special ignored! <./figures/nn.png> <./figures/pwl_error_fbest_realize-
+eps-converted-to.pdf>] (./template.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12293 strings out of 492995
- 249270 string characters out of 6132704
- 297035 words of memory out of 5000000
- 15606 multiletter control sequences out of 15000+600000
- 14174 words of font info for 50 fonts, out of 8000000 for 9000
+ 12792 strings out of 492995
+ 254178 string characters out of 6132704
+ 304548 words of memory out of 5000000
+ 16089 multiletter control sequences out of 15000+600000
+ 9542 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,60p,461b,676s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+ 55i,7n,54p,445b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on template.pdf (1 page, 110395 bytes).
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on template.pdf (1 page, 119704 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
