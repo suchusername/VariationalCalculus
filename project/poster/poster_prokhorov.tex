@@ -34,6 +34,7 @@
 \usepackage[absolute]{textpos}
 
 \usepackage{amsmath}
+\usepackage{hyperref}
 
 \usepackage{fleqn,psfrag,wrapfig,tikz}
 
@@ -182,23 +183,23 @@ The dimensionality of such problem is $\mathcal{O}(N)$. However, knowing that co
 
 \vbox{The neural network approximates an optimal solution, therefore, it has a single input and a single output. The simplest case can be visualized as a following diagram}
 \begin{centering}\begin{figure}
-\includegraphics[width=0.8\textwidth]{figures/nn.png}
+\includegraphics[width=0.8\textwidth]{figures/nn.pdf}
 \end{figure}\end{centering}
 The idea is to use different activation functions $a_k(t)$. Some examples:
-$$a_k(t) = \cos (kt), \qquad a_k(t) = t^k$$
+$$a_k(t) = \cos\frac{\pi k (t - t_0)}{t_\text{f} - t_0}, \qquad a_k(t) = (t - t_0)^k$$
 Such network will act as basis expansion (trigonometric series or power series) of the solution. More advanced networks have more hidden layers to allow for more variability.\\\\
 An extra activation layer $\varphi$ does a smooth transform to conform to boundary conditions. In present work the following transform is utilized:
 $$\varphi(t,x) = x_0 + \frac{x_\text{f} - x_0}{t_\text{f} - t_0} (t - t_0) + (t - t_0)(t - t_\text{f}) x$$
 \medskip
 \hrule\medskip
 \Head{Training}\\
-The network is trained to minimize the integral loss $\widehat{J}$ using traditional gradient methods:
+The network is trained to minimize the integral loss $\widehat{J}$ using gradient methods:
 \begin{itemize}
 \item Vanilla GD with momentum
-\item L-BFGS algorithm
-\item others
+\item L-BFGS
+\item Adam
 \end{itemize}
-The PyTorch framework with its Autograd tool was used for training. 
+The PyTorch framework with its Autograd tool was used for training.
 \medskip
 \hrule\medskip
 \Head{Hyperparameters}\\
@@ -217,30 +218,25 @@ The following parameters of the model can be altered to find better results:
 
 \hrule\medskip
 \Head{Numerical example}\\
-Consider a numerical example with $f(x) = \|Ax - b\|_2^2$
-with $A \in \reals^{10 \times 100}$ and $b \in \reals^{10}$.
-Entries of $A$ and $b$ are generated as independent samples from
-a standard normal distribution.
-Here, we have chosen $\lambda$ using cross validation.
-
-\medskip
+Consider a particular problem:
+$$J[x] = \int\limits_0^\pi \big[(\dot{x} + x)^2 + 2x \sin(t)\big] \, dt \longrightarrow \min, \ \ \ x(0)=0, \ \ \ x(\pi)=1$$
+Its discrete version can be solved using the gradient descent algorithm. For comparison, a neural network was used too. It contained one hidden cosine layer with 8 neurons and its training also involved the gradient descent algorithm with momentum.\\\\[-1em]
+All other hyperparameters were chosen to be the same in both methods (integral approximation, learning rate scheduling, etc.)
+\medskip\smallskip
 \hrule\medskip
 \Head{Results}\\
-On this numerical example, the ADMM method converges quickly.
-We give two realizations corresponding to different parameters $A$ and $b$.
-\begin{center}
-\psfrag{k}[t][b]{$k$}
-\psfrag{fbest - fmin}[b][t]{$f_\mathrm{best}^{(k)} - f^\star$}
-\psfrag{noise-free realize}{noise-free case}
-\psfrag{realize1}{realization 1}
-\psfrag{realize2}{realization 2}
-\includegraphics[width=0.9\textwidth]{figures/pwl_error_fbest_realize.eps}
-\end{center}
+The quality metric chosen here is relative L1-error between numerical and exact solutions:
+$$\text{RelError}(x, x^\ast) = \frac{\frac{1}{N}\sum_{k} \lvert x(t_k) - x^\ast(t_k) \rvert}{\frac{1}{N}\sum_{k} \lvert x^\ast(t_k) \rvert}$$
+In this numerical example the neural algorithm converges to a much better result than a naive approach in terms of precision. 
+\begin{figure}
+\includegraphics[width=1.1\textwidth]{figures/comparison.pdf}
+\end{figure}
 
 \medskip
 \hrule\medskip
 \Head{Conclusion}\\
-haha yes, yes
+As a result of present work, a flexible neural algorithm for solution of different calculus of variations problems has been developed. Testing has shown that it is able to achieve better precision than some naive approaches and is on par with other optimization methods for variational problems.\\\\[-1em]
+Link to \href{https://github.com/suchusername/VariationalCalculus}{\underline{GitHub repository}}.
 
 
 \end{textblock}
